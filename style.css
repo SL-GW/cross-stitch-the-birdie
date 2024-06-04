@@ -1,5 +1,6 @@
 :root {
   --primary-color: #ff654c;
+  --secondary-color: #c3a8a6;
   --box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -11,30 +12,35 @@ body {
 }
 
 h1 {
-  font-size: 70px;
+  font-family: "Style Script", cursive;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 100px;
   text-align: center;
   padding: 30px 10px 0px 0px;
-  font-weight: 900;
 }
 
 h2 {
   text-align: center;
-  padding-top: 20px;
+  padding: 20px 0px 30px 0px;
   opacity: 0.8;
 }
 
 .logo-image {
   padding: 30px 10px 0px 0px;
+  width: 250px;
 }
 
 .homepage-heading {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .homepage-photo {
   border-radius: 30px;
   box-shadow: var(--box-shadow);
+  width: 600px;
 }
 
 .homepage-examples {
@@ -47,7 +53,7 @@ h2 {
   font-size: 50px;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .golf {
   margin-right: 30px;
