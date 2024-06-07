@@ -85,3 +85,16 @@ h2 {
 .bg-custom-nav {
   background-color: var(--primary-color);
 }
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 28px;
+  }
+
+  .logo-image {
+    display: none;
+  }
+  .blurb {
+    display: none;
+  }
+}
