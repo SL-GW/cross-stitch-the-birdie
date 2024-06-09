@@ -100,10 +100,18 @@ h2 {
 
 .review-pink {
   background-color: var(--primary-color);
+  border-radius: 4px;
+  height: 200px;
+  padding-top: 15px;
+  margin: 20px;
 }
 
 .review-grey {
   background-color: var(--secondary-color);
+  border-radius: 4px;
+  height: 200px;
+  padding: 15px 5px 0px 5px;
+  margin: 20px;
 }
 
 .email-address {
@@ -139,5 +147,9 @@ h2 {
 
   .email-address {
     font-size: 23px;
+  }
+
+  .date {
+    display: none;
   }
 }
