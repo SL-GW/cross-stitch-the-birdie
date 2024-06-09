@@ -96,8 +96,6 @@ h2 {
   font-weight: 500;
   line-height: 1.5;
   text-align: center;
-  display: flex;
-  justify-content: space-evenly;
 }
 
 .review-pink {
@@ -106,6 +104,11 @@ h2 {
 
 .review-grey {
   background-color: var(--secondary-color);
+}
+
+.email-address {
+  padding-top: 10px;
+  font-size: 30px;
 }
 
 @media (max-width: 600px) {
@@ -132,5 +135,9 @@ h2 {
 
   .title-text {
     display: none;
+  }
+
+  .email-address {
+    font-size: 23px;
   }
 }
